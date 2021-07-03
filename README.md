@@ -10,6 +10,12 @@ I started this project for myself and others who like to shop online. While the 
 ### Project Objectives:
 1. Identify patterns on reviews that could insinuate suspicious reviewer behavior
 
+### Images
+*Most Relevant Words In Each Clusters*
+![](jupyter notebooks/clusters_wordclouds.png "Title")
+*Non-Text Features Differences*
+![](jupyter notebooks/parallel_coordinates.jpg "Title")
+
 ### Dataset
 I webscraped Zaful Reviews from the [Floral Dresses](https://www.zaful.com/s/floral-dresses/) section of the website. These reviews were webscraped on ~September 18, 2020.
 
@@ -17,87 +23,14 @@ I webscraped Zaful Reviews from the [Floral Dresses](https://www.zaful.com/s/flo
 - Cleaning Data: Random Imputation, Normalization, CountVectorizor, TFIDFVectorizor
 - Modeling: Kmeans, PCA
 
-*Clusters*
 
-Individual Rating
-Date (ordinal)
-Color
-Time (numerical)
-Rank
-Size
-missing Waist
-missing Height
-dress
-material
+**Why Use TFIDFVectorizor over CountVectorizor?**
+First, I wanted to scale the text features from 0 to 1 because the non-text features were already normalized. Second, TFIDFVectorizor takes into account
 
-Cluster 1
-material
-fantastic
-fantastic material
-comfortable
-comfortable fantastic
-comfortable fantastic material
-like
-looks
-pictures
-like pictures
+## Challenges
 
-Cluster 2
-super
-cute
-super cute
-like
-Individual Rating
-pictures
-like pictures
-looks
-exaclty like
-exaclty
+1. Knowing How Many Clusters
+2. Which Clusters
+3. Cleaning Data
 
-Cluster 3
-material
-size
-comfortable
-fits
-true size
-true
-fantastic
-fantastic material
-comfortable fantastic material
-comfortable fantastic
-
-Cluster 4
-like
-exaclty
-exaclty like
-looks
-pictures
-like pictures
-exaclty like pictures
-Individual Rating
-looks exaclty
-looks exaclty like
-
-Cluster 5
-size
-true
-fits
-true size
-like
-Individual Rating
-looks
-pictures
-like pictures
-size fits
-
-Cluster 6
-size
-love
-true
-true size
-like
-pictures
-cute
-like pictures
-exaclty like pictures
-exaclty
+## Why bigrams and trigrams?
