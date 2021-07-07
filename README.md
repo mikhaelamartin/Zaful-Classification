@@ -13,6 +13,7 @@ I started this project for myself and others who like to shop online. While the 
 ### Images
 *Most Relevant Words In Each Clusters*
 ![](jupyter notebooks/clusters_wordclouds.png "Title")
+![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/images/missing%20values.PNG)
 *Non-Text Features Differences*
 ![](jupyter notebooks/parallel_coordinates.jpg "Title")
 
