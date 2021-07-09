@@ -12,10 +12,30 @@ I started this project for myself and others who like to shop online. While the 
 
 ### Images
 *Most Relevant Words In Each Clusters*
-![](jupyter notebooks/clusters_wordclouds.png "Title")
 ![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/images/missing%20values.PNG)
 *Non-Text Features Differences*
-![](jupyter notebooks/parallel_coordinates.jpg "Title")
+
+## Clusters Using All Columns
+I grouped the data into two clusters, as per the elbow method:
+
+![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20Elbow%20Plot.png "All Features - PCA Plot")
+
+Most relevant words, according to TFIDFVectorizor:
+
+![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20Cluster%20WordClouds.png "All Features - Cluster Wordclouds")
+
+Visualizing Clusters with PCA:
+
+![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20PCA.png "All Features - PCA")
+
+Non-Text Feature Differences:
+![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20Non-Text%20Features%20Plot.png "All Features - Non-Text Feature Differences")
+
+
+## Interpretations
+- PC1 only accounts for less than 10% of the variance in ... 
+- The clusters differ greatly across all features, most noticeably: Waist, Rank, Color, Size, Missing Overall Fit, and Missing Color.
+
 
 ### Dataset
 I webscraped Zaful Reviews from the [Floral Dresses](https://www.zaful.com/s/floral-dresses/) section of the website. These reviews were webscraped on ~September 18, 2020.
