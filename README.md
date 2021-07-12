@@ -10,10 +10,6 @@ I started this project for myself and others who like to shop online. While the 
 ### Project Objectives:
 1. Identify patterns on reviews that could insinuate suspicious reviewer behavior
 
-### Images
-*Most Relevant Words In Each Clusters*
-![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/images/missing%20values.PNG)
-*Non-Text Features Differences*
 
 ## Clusters Using All Columns
 I grouped the data into two clusters, as per the elbow method:
