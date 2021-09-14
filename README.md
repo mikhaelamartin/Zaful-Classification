@@ -26,11 +26,9 @@ In terms of the text themselves, they both had very similar common words and phr
 #### The Optimal Number of Features is 2
 ![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20Elbow%20Plot.png "All Features - PCA Plot")
 
-## Most Relevant Words per Cluster
 #### Both Clusters Contained Similar Words
 ![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20Cluster%20WordClouds.png "All Features - Cluster Wordclouds")
 
-## PC1 Describes Variation in Clusters Much More than PC2
 #### Despite Optimal Clustering, the Data Was Still Hard to Group
 PC1 contains more than 26% of the variation in data, yet the two clusters looked like four. 
 ![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20PCA.png "All Features - PCA")
@@ -39,7 +37,7 @@ PC1
 
 Non-Text Feature Differences:
 
-#### Missing Columns Differentiated the Clusters the Most
+#### Clusters Differ Most Because of Missing Values
 Missing Overall Fit, Missing Height,and Missing Weight Differed the Most Between Clusters
 
 ![](https://github.com/mikhaelamartin/Zaful-Classification/blob/master/jupyter%20notebooks/All%20Features%20-%20Non-Text%20Features%20Plot.png "All Features - Non-Text Feature Differences")
